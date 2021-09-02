@@ -1,5 +1,5 @@
 .header{
-    height:10vh;
+
     background-color: #62e6ff;
     display: flex;
     justify-content: center;
@@ -8,7 +8,20 @@
 }
 .headerContainer{
     justify-content: flex-end;
+    margin: 25px 0;
 
 
+
+}
+@media (max-width: 576px) {
+
+    .headerContainer{
+        justify-content: center;
+        margin-top: 0;
+
+
+
+
+    }
 
 }
