@@ -48,7 +48,17 @@
 
 }
 
+.btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 3px;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 150px;
+    transition: 1s;
 
+
+}
 
 .zakrivashka{
     position: absolute;
@@ -59,5 +69,15 @@
     transition: 1s;
 }
 
+@media (max-width: 576px) {
+
+    .myWork{
+
+        width: 350px;
+        height: 800px;
+
+    }
+
+}
 
 

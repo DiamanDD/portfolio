@@ -8,9 +8,7 @@ export const MyWork = (props:MyWork) => {
     return (
        <div className={style.myWork}>
 
-           <div className={style.zakrivashka}>
-
-           </div>
+           {/*<button className={style.btn}>Посмотреть</button>*/}
 
 
            <div className={style.preview}>Картника</div>
