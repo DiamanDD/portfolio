@@ -1,14 +1,16 @@
-.header{
-
-    background-color: #62e6ff;
+.HireMe{
+    height: 200px;
+    background-color: #86ffa8;
     display: flex;
     justify-content: center;
 
 
 }
-.contactContainer{
-    justify-content: flex-end;
+.hireMeContainer{
+    justify-content: space-around;
     margin: 25px 0;
+    flex-direction: column;
+    align-items: center;
 
 
 

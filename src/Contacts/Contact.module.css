@@ -1,16 +1,23 @@
-.header{
-
-    background-color: #62e6ff;
+.Contact{
+    height: 800px;
+    background-color: cadetblue;
     display: flex;
     justify-content: center;
 
 
 }
 .contactContainer{
-    justify-content: flex-end;
+    justify-content: space-evenly;
     margin: 25px 0;
+    flex-direction: column;
 
 
+
+}
+.contactContainer *{
+    border: 1px solid;
+}
+.form{
 
 }
 @media (max-width: 576px) {

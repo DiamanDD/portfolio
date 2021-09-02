@@ -1,6 +1,6 @@
-.header{
-
-    background-color: #62e6ff;
+.footer{
+    height: 800px;
+    background-color: aqua;
     display: flex;
     justify-content: center;
 
