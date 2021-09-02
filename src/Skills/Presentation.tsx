@@ -11,7 +11,7 @@ export const Presentation=(props:PresentationType)=>{
     return(
         <div className={style.body}>
 
-            <div className={style.logo}><img src={`${props.urlIcon}`}/></div>
+            <div className={style.logo}><img alt={"logo"} src={`${props.urlIcon}`}/></div>
             <div className={style.title}>{props.title}</div>
             <div className={style.descriptios} >{props.description}</div>
         </div>
