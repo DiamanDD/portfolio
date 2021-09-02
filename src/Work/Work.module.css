@@ -1,0 +1,13 @@
+.work{
+    height: 600px;
+    background-color: #a9ff98;
+    display: flex;
+    justify-content: center;
+
+}
+.workContainer{
+    justify-content: center;
+    align-items: center;
+
+
+}

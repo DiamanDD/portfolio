@@ -1,0 +1,13 @@
+.header{
+    height:10vh;
+    background-color: #62e6ff;
+    display: flex;
+    justify-content: center;
+
+}
+.headerContainer{
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
