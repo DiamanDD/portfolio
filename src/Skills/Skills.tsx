@@ -11,7 +11,7 @@ export const Skills = () => {
 
                 <div className={style.title}>Мои скиллы</div>
                 <div className={style.presentation}>
-                    <Presentation  title={"React"} description={react} urlIcon={logoReact}/>
+                    <Presentation  title={"Reactfffff"} description={react} urlIcon={logoReact}/>
                     <Presentation  title={"React"} description={react} urlIcon={logoReact}/>
                     <Presentation  title={"React"} description={react} urlIcon={logoReact}/>
 
