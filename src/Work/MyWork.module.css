@@ -1,0 +1,63 @@
+.myWork{
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid ;
+
+
+
+    width: 450px;
+    height: 600px;
+
+}
+
+.preview{
+    border: 1px solid ;
+    height: 50%;
+    text-align: center;
+
+
+}
+.container{
+
+    border: 1px solid ;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    margin: 30px;
+}
+.title{
+    border: 1px solid ;
+    font-size: 1.5em;
+}
+
+.description{
+    border: 1px solid ;
+}
+
+.zakrivashka:hover{
+    opacity: 0;
+
+}
+.zakrivashka:hover~.btn{
+   opacity: 0;
+
+}
+
+
+
+.zakrivashka{
+    position: absolute;
+    background-color: #809dff;
+    width: 450px;
+    height: 600px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+
+
