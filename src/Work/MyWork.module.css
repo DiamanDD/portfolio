@@ -15,6 +15,9 @@
     border: 1px solid ;
     height: 50%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -39,22 +42,13 @@
     border: 1px solid ;
 }
 
-.zakrivashka:hover{
-    opacity: 0;
 
-}
-.zakrivashka:hover~.btn{
-   opacity: 0;
-
-}
 
 .btn{
     height: 50px;
     width: 150px;
     border-radius: 3px;
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 150px;
+
     transition: 1s;
 
 

@@ -8,10 +8,10 @@ export const MyWork = (props:MyWork) => {
     return (
        <div className={style.myWork}>
 
-           {/*<button className={style.btn}>Посмотреть</button>*/}
 
 
-           <div className={style.preview}>Картника</div>
+
+           <div className={style.preview}>       <button className={style.btn}>Посмотреть</button></div>
            <div className={style.container}>
                <span className={style.title}>название</span>
 
