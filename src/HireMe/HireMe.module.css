@@ -1,5 +1,5 @@
 .HireMe{
-    height: 200px;
+    height: 300px;
     background-color: #86ffa8;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 .hireMeContainer{
     justify-content: space-around;
-    margin: 25px 0;
+    margin:50px 0;
     flex-direction: column;
     align-items: center;
 
@@ -17,10 +17,10 @@
 }
 @media (max-width: 576px) {
 
-    .contactContainer{
-        justify-content: center;
-        margin-top: 0;
-
+    .hireMeContainer span{
+       border: 1px solid;
+        width: 50%;
+        text-align: center;
 
 
 

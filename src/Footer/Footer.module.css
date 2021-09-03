@@ -1,27 +1,44 @@
 .footer{
-    height: 800px;
+    height: 400px;
     background-color: aqua;
     display: flex;
     justify-content: center;
 
 
 }
-.contactContainer{
-    justify-content: flex-end;
-    margin: 25px 0;
-
-
+.footerContainer{
+    flex-direction: column;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: center;
 
 }
+.footerContainer *{
+    border: 1px solid;
+}
+.social{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.social div{
+    width: 60px;
+    height: 60px;
+}
 @media (max-width: 576px) {
+    .social{
 
-    .contactContainer{
-        justify-content: center;
-        margin-top: 0;
-
-
-
-
+        display: flex;
+        flex-wrap: wrap;
+        width: 150px;
+        height: 150px;
+        align-content: space-around;
+        justify-content: space-between;
     }
+
 
 }

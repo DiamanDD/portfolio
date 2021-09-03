@@ -1,15 +1,19 @@
 .Contact{
-    height: 800px;
-    background-color: cadetblue;
+
+    background-color: #809dff;
     display: flex;
     justify-content: center;
 
 
 }
 .contactContainer{
-    justify-content: space-evenly;
-    margin: 25px 0;
+    height: 300px;
+    justify-content: space-between;
+    margin: 50px 0;
     flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+
 
 
 
@@ -18,17 +22,28 @@
     border: 1px solid;
 }
 .form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    justify-content: space-between;
+
 
 }
+.form input{
+    height: 15%;
+}
+.form textarea{
+    height: 40%;
+}
+
 @media (max-width: 576px) {
 
-    .contactContainer{
-        justify-content: center;
-        margin-top: 0;
 
 
 
 
-    }
+
+
 
 }
