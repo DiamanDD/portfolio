@@ -1,26 +1,25 @@
 .myWork{
     display: flex;
     flex-direction: column;
+    margin-bottom:50px;
+    border: 1px solid darkgrey ;
+    width: 350px;
 
-    border: 1px solid ;
 
-
-
-    width: 450px;
-    height: 600px;
 
 }
 
 .preview{
     border: 1px solid ;
-    height: 50%;
+
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    background-size: cover;
+    background-size:  cover;
     background-position: center;
+   height: 350px;
 
 
 
@@ -38,7 +37,7 @@
 
 .container{
     padding: 15px;
-    border: 1px solid ;
+    /*border: 1px solid ;*/
 
 
     display: flex;
@@ -46,7 +45,12 @@
     align-items: flex-start;
     justify-content: space-around;
 
-    margin: 30px;
+
+
+}
+
+.myWork .container h3{
+    margin: 0;
 }
 .title{
     font-family: inherit;
@@ -57,6 +61,9 @@
 
 .description{
     border: 1px solid ;
+    display: block;
+    height: 100px;
+    width: 100%;
 }
 
 
@@ -64,7 +71,7 @@
 .btn{
    padding: 10px 20px;
     border-radius: 3px;
-    background-color: #ffadfa;
+    background-color: #f5f5f5;
     transition: 1s;
     z-index: 10;
 
@@ -79,13 +86,19 @@
     opacity: 0.8;
     transition: 1s;
 }
+.read{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+}
 
 @media (max-width: 576px) {
 
     .myWork{
 
         width: 350px;
-        height: 800px;
+
 
     }
 

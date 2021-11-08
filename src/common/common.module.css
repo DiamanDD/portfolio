@@ -7,3 +7,9 @@ h1,h2,h3,h4,h5{
     font-family: 'Rubik', sans-serif;
 
 }
+
+body,a{
+    font-family:'Mina', sans-serif;
+    text-decoration: none;
+    color: black;
+}
