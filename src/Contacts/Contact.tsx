@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./Contact.module.css"
 import  commonStyle from "../common/common.module.css"
+import {TitleBlock} from "../common/Compopnents/TitleBlockComponent/TitleBlock";
 
 
 export const Contact = () => {
@@ -9,7 +10,7 @@ export const Contact = () => {
         <div className={style.Contact}>
             <div className={`${commonStyle.container} ${style.contactContainer}`}>
 
-                <span>Контакты</span>
+               <TitleBlock title={"Contacts"}/>
                 <div className={style.form}>
                     <input type={"text"}/>
                     <input type={"text"}/>

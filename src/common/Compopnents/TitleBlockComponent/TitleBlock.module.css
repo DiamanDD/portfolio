@@ -1,0 +1,44 @@
+
+.title{
+    /*border: 1px solid;*/
+    text-align: center;
+}
+
+.title h2{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 44px;
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.title h2::after, .title h2::before{
+    width: 20px;
+    height: 20px;
+    content: "";
+    position: absolute;
+
+}
+
+
+.title h2::after{
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+
+}
+
+.title h2::before{
+    top:0;
+    left:0;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+
+
+}
+

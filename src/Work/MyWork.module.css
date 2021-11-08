@@ -18,13 +18,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
 
 
 }
-.container{
+.preview:before{
+    position: absolute;
+    content: "";
+    background-color: black;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    opacity: 0.5;
+}
 
+.container{
+    padding: 15px;
     border: 1px solid ;
-    height: 50%;
+
 
     display: flex;
     flex-direction: column;
@@ -34,8 +49,10 @@
     margin: 30px;
 }
 .title{
-    border: 1px solid ;
-    font-size: 1.5em;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 5px 0 15px;
 }
 
 .description{
@@ -45,11 +62,11 @@
 
 
 .btn{
-    height: 50px;
-    width: 150px;
+   padding: 10px 20px;
     border-radius: 3px;
-
+    background-color: #ffadfa;
     transition: 1s;
+    z-index: 10;
 
 
 }
