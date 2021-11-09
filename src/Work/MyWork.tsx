@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./MyWork.module.css"
+import style from "./MyWork.module.scss"
 
 type MyWork = {
     style:imgstyletype

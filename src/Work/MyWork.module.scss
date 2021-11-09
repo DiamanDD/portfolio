@@ -1,0 +1,93 @@
+@import "../common/styles/scss/variables";
+
+.myWork {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: 1px solid darkgrey;
+  width: 350px;
+  .preview {
+    border: 1px solid;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+      &::before {
+          position: absolute;
+          content: "";
+          background-color: black;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          opacity: 0.5;
+      }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: 3px;
+      background-color: $backgroundColor;
+      transition: 1s;
+      z-index: 10;
+    }
+  }
+
+
+
+  .container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    .title {
+      font-family: inherit;
+      font-weight: 600;
+      line-height: 1.2;
+      padding: 5px 0 15px;
+      margin: 0;
+    }
+
+    .description {
+      border: 1px solid;
+      display: block;
+      height: 100px;
+      width: 100%;
+    }
+
+    .read {
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+  }
+
+  @media (max-width: 576px) {
+    width: 350px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
