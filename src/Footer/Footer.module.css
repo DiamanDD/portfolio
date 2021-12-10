@@ -1,8 +1,9 @@
 .footer{
     height: 400px;
-    background-color: aqua;
+    background-color: #33393d;
     display: flex;
     justify-content: center;
+    color: white;
 
 
 }

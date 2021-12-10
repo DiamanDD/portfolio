@@ -6,7 +6,7 @@
 
 }
 .workContainer{
-    margin: 100px 0;
+    margin: 50px 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -14,7 +14,7 @@
 
 .presentation{
     /*border: 1px solid;*/
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

@@ -8,6 +8,7 @@ export const Header = () => {
 
         <div className={style.header}>
             <div className={`${commonStyle.container} ${style.headerContainer}`}>
+
                 <Nav/>
             </div>
         </div>

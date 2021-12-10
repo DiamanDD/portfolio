@@ -5,7 +5,8 @@
   flex-direction: column;
   margin-bottom: 50px;
   border: 1px solid darkgrey;
-  width: 350px;
+  width: 400px;
+
   .preview {
     border: 1px solid;
     text-align: center;
@@ -15,17 +16,18 @@
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 350px;
-      &::before {
-          position: absolute;
-          content: "";
-          background-color: black;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
-          opacity: 0.5;
-      }
+    height: 300px;
+
+    &::before {
+      position: absolute;
+      content: "";
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      opacity: 0.8;
+    }
 
     .btn {
       padding: 10px 20px;
@@ -35,9 +37,6 @@
       z-index: 10;
     }
   }
-
-
-
   .container {
     padding: 15px;
     display: flex;
@@ -54,9 +53,8 @@
     }
 
     .description {
-      border: 1px solid;
       display: block;
-      height: 100px;
+
       width: 100%;
     }
 

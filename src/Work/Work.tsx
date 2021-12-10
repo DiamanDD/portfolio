@@ -18,7 +18,7 @@ export const Work = () => {
                 <TitleBlock title={"My work"}/>
                 <div className={style.presentation}>
                     <MyWork description={react} name={"Social Network"} style={imgstyle} date={"15-12-2019"}/>
-                    <MyWork description={"привет я сделал что то"} name={ "Todo List"} style={imgstyle} date={"15-12-2019"}/>
+
                     <MyWork description={react} name={"Social Network"} style={imgstyle} date={"15-12-2019"}/>
                     <MyWork description={react} name={ "Todo List"} style={imgstyle} date={"15-12-2019"}/>
                 </div>

@@ -4,14 +4,13 @@ import style from "./Nav.module.css"
 export const Nav=()=>{
     return(
 
-                <div className={style.nav} >
-                    <a >Главная</a>
-                    <a >Скиллы</a>
-                    <a >Работы</a>
-                    <a >Контакты</a>
+                <ul className={style.nav} >
+                    <li><a href={"#"}>Home</a></li>
+                    <li><a href={"#"}>Skills</a></li>
+                    <li><a href={"#"}>My Works</a></li>
+                    <li><a href={"#"}>Conact</a></li>
 
-
-                </div>
+                </ul>
 
 
 

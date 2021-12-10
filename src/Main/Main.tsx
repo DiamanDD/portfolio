@@ -7,9 +7,9 @@ export const Main = () => {
         <div className={style.main}>
             <div className={`${commonStyle.container} ${style.mainContainer}`}>
                 <div className={style.welkomeBlock}>
-                        <span>Привет</span>
-                        <h1>Меня зовут Дмитрий Дубровский</h1>
-                        <span>Я FRONT-END разработчик</span>
+
+                        <h1>Hello I'm Dmitry</h1>
+                        <h3>I am a FRONT-END developer</h3>
                 </div>
                     <div className={style.photo}>ФОТО</div>
 
